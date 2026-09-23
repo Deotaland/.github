@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Deotaland/.github/main/profile/assets/logo-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Deotaland/.github/main/profile/assets/logo-light.svg">
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Deotaland/.github/dev/profile/assets/logo-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Deotaland/.github/dev/profile/assets/logo-light.svg">
   <img alt="Deotaland" src="https://raw.githubusercontent.com/Deotaland/.github/main/profile/assets/logo-light.svg" width="200">
 </picture>
 **Connect any ESP32 device to a production AI agent**
