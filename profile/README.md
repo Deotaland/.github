@@ -1,61 +1,95 @@
+
 <div align="center">
 
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Deotaland/.github/dev/profile/assets/logo-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Deotaland/.github/dev/profile/assets/logo-light.svg">
-  <img alt="Deotaland" src="https://raw.githubusercontent.com/Deotaland/.github/dev/profile/assets/logo-light.svg" width="600">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Deotaland/.github/main/profile/assets/logo-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Deotaland/.github/main/profile/assets/logo-light.svg">
+  <img alt="Deotaland" src="https://raw.githubusercontent.com/Deotaland/.github/main/profile/assets/logo-light.svg" width="600">
 </picture>
 
-<br><br>
+<br>
 
-### Connect any ESP32 device to a production AI agent
+### Bring AI Agents into the Physical World.
 
-[Website](https://deotaland.ai) · [Docs](https://deotaland.cn/#/docs) · [Discussions](https://github.com/Deotaland/Agent_link/discussions)
+**An Open Physical Agent Platform**
 
-[![Docs](https://img.shields.io/badge/docs-deotaland.ai-111111)](https://deotaland.cn/#/docs)
-[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/Deotaland/Agent_link/blob/main/LICENSE)
-<!-- Discord 徽章先注释掉：shields.io 需要真实 server id，填占位符会渲染成一张报错图
-[![Discord](https://img.shields.io/discord/SERVER_ID?label=community&color=5865F2)](DISCORD_URL)
--->
+Connect AI agents with real-world hardware — enabling devices to sense, interact, and act.
+
+[Website](https://deotaland.ai) · [Documentation](https://deotaland.cn/#/docs) · [GitHub](https://github.com/Deotaland) · [Community](https://github.com/Deotaland/Agent_link/discussions)
 
 <br>
+
+[![Docs](https://img.shields.io/badge/Docs-Developer_Guide-blue)](https://deotaland.cn/#/docs)
+[![License](https://img.shields.io/badge/Agent_Link-MIT-green)](https://github.com/Deotaland/Agent_link/blob/main/LICENSE)
 
 </div>
 
 ---
 
-## What we build
+## What is Deotaland?
 
-Deotaland runs a hosted agent platform and the open-source firmware that talks to it.
-The firmware SDK handles transport, protocol, pairing and OTA, so board code only declares
-what hardware it has and fills in a handful of callbacks — the same source builds for BLE or WiFi.
+Deotaland is building an open **Physical Agent Platform** that bridges AI agents and real-world devices.
 
-New accounts get free credits, so you can flash a dev board and be talking to an agent
-before deciding whether to pay for anything.
+We believe AI agents should go beyond screens. They should be able to hear, see, respond, move, and interact with the physical world.
 
-## Projects
+Our mission is to make building Physical Agents easier, faster, and more accessible to developers worldwide.
 
-| Project | What it does |
-| --- | --- |
-| **[Agent_link](https://github.com/Deotaland/Agent_link)** | Connects ESP32 hardware to the Deotaland agent platform — BLE and WiFi, voice streaming, sensors, OTA |
+## What We're Building
 
-<sub>Browse [all repositories](https://github.com/orgs/Deotaland/repositories).</sub>
+**Hardware Connectivity**
 
-## Start here
+Connect embedded devices through reusable SDKs and communication protocols.
 
-1. **Run it** — flash a supported board and pair it from the console
+**Physical Capabilities**
 
-   ```bash
-   git clone https://github.com/Deotaland/Agent_link && cd Agent_link/firmware
-   idf.py set-target esp32s3 && idf.py menuconfig   # pick your board
-   idf.py build flash monitor
-   ```
+Give AI agents access to microphones, cameras, sensors, displays, speakers, and actuators.
 
-2. **Read the docs** — [deotaland.cn/docs](https://deotaland.cn/#/docs)
-3. **Ask a question** — [Discussions](https://github.com/Deotaland/Agent_link/discussions) · found a bug? [open an issue](https://github.com/Deotaland/Agent_link/issues)
+**Agent Interoperability**
+
+Explore integrations with different AI agent ecosystems, including Muse and other agent runtimes.
+
+**Developer Ecosystem**
+
+Open-source tools, reference firmware, hardware demos, and community collaboration.
+
+## Open Source Projects
+
+### [Agent Link](https://github.com/Deotaland/Agent_link)
+
+Our open-source embedded connectivity SDK.
+
+- ESP32-based reference firmware
+- BLE, Wi-Fi, and Muse transport integrations
+- Device capabilities and I/O interfaces
+- Voice, sensors, displays, and actuators
+- Reference boards including Rorolee and WOWNNY
+
+Feature availability varies by transport and firmware version.
+
+[Explore Agent Link →](https://github.com/Deotaland/Agent_link)
+
+## Get Started
+
+1. Read the [Developer Documentation](https://deotaland.cn/#/docs).
+2. Explore the [Agent Link repository](https://github.com/Deotaland/Agent_link).
+3. Follow the firmware setup and board integration guides.
+4. Connect a supported device to an available agent backend.
+5. Share your project or ask questions in [Discussions](https://github.com/Deotaland/Agent_link/discussions).
+
+## Build With Us
+
+We're inviting hardware developers, robotics enthusiasts, makers, and AI builders to explore the future of Physical Agents.
+
+Whether you're building a wearable, a desktop companion, a robot, or an entirely new device — we'd love to see what you create.
+
+**Build. Connect. Bring AI to Life.**
+
+---
 
 <div align="center">
-<sub><a href="https://deotaland.ai">deotaland.ai</a></sub>
+
+[Website](https://deotaland.ai) · [Documentation](https://deotaland.cn/#/docs) · [Agent Link](https://github.com/Deotaland/Agent_link) · [Community](https://github.com/Deotaland/Agent_link/discussions)
+
 </div>
